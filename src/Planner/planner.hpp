@@ -42,7 +42,6 @@ public:
     void setWall(std::array<int, 2> pos, bool wall);
     std::vector<std::array<int, 2>> getWalls();
     
-    
     std::vector<bool> path_cells;
     std::vector<int> dirty_cells;
     bool isPathCell(int id) const;
